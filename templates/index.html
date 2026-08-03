@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AI Chatbot</title>
+        <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>🤖 AI Chatbot</h1>
+            <div id="chat-box">
+                <div class="bot-message">
+                    Hello! How can I help you today?
+                </div>
+            </div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="type your message....">
+                <button id="send-btn">Send</button>
+                <button id="clear-btn">Clear</button>
+            </div>
+        </div>
+        <script src="{{ url_for('static',filename='script.js') }}"></script>
+    </body>
+</html>
