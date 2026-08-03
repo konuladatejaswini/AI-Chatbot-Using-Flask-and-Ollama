@@ -1,2 +1,1 @@
-Flask
-ollama
+pip freeze > requirements.txt
