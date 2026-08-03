@@ -93,9 +93,16 @@ http://127.0.0.1:5000
 
 ## 📸 Screenshots
 
-Screenshots will be added soon.
+## 📸 Screenshot
+### 🏠 Home Page
 
----
+![Home Page](screenshot/home.png)
+
+### 💬 Chat Conversation
+
+![Chat Conversation](screenshot/chat.png)
+
+
 
 ## 🔮 Future Improvements
 
